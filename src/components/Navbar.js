@@ -5,9 +5,9 @@ export default function Navbar() {
   return (
     <div>
 
-      <nav className="navbar navbar-expand-lg bg-danger navbar-dark">
+      <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand fs-1" to="/">iLooms</Link>
+          <Link className="navbar-brand fs-1" to="/">iExchange</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
