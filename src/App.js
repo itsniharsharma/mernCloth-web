@@ -7,6 +7,10 @@ import {
 } from "react-router-dom";
 
 import Login from './screens/Login';
+import Istore from './screens/Istore';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 
 function App() {
   return (
@@ -16,6 +20,7 @@ function App() {
        <Routes>
            <Route exact path="/" element={<Home/>}/>
            <Route exact path="/login" element={<Login/>}/>
+           <Route exact path="/Istore" element={<Istore/>}/>
        </Routes>
 
       </div>

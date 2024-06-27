@@ -23,7 +23,7 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/">Store</Link>
+                <Link className="nav-link" to="/Istore">Istore</Link>
               </li>
 
               <li className="nav-item dropdown">
