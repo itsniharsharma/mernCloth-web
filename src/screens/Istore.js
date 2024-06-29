@@ -6,9 +6,9 @@ export default function Istore() {
   return (
     <div>
 
-      <div><Navbar/></div>
+      <div><Navbar /></div>
 
-      <div className="mysearch" style={{marginLeft:'1000px'}}>
+      <div className="mysearch" style={{ marginLeft: '1000px' }}>
         <nav className="navbar bg-body-tertiary">
           <div className="container-fluid">
             <form className="d-flex" role="search">
@@ -29,6 +29,28 @@ export default function Istore() {
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
+
+                <div className='thiscontainer w-100 '>
+
+                  <select className='m-2 h-100 bg-primary rounded'>
+                    {Array.from(Array(6), (x, i) => {
+                      return (
+                        <option key={i + 1} value={i + 1}> {i + 1} </option>
+                      )
+                    })}
+                  </select>
+
+
+                  <select className='m-2 h-100 bg-primary rounded '>
+                    <option value="ReadyMade">ReadyMade</option>
+                    <option value="Cloth">Cloth</option>
+                  </select>
+
+                  <p className='mx-1 fs-5' >Total Price</p>
+                </div>
+
+              
+
                 <Link to="#" className="btn btn-primary">Go somewhere</Link>
               </div>
             </div>
@@ -42,6 +64,25 @@ export default function Istore() {
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
+
+                <div className='thiscontainer w-100'>
+
+                  <select className='m-2 h-100 bg-primary rounded'>
+                    {Array.from(Array(6), (x, i) => {
+                      return (
+                        <option key={i + 1} value={i + 1}> {i + 1} </option>
+                      )
+                    })}
+                  </select>
+
+
+                  <select className='m-2 h-100 bg-primary rounded'>
+                    <option value="ReadyMade">ReadyMade</option>
+                    <option value="Cloth">Cloth</option>
+                  </select>
+                </div>
+
+
                 <Link to="#" className="btn btn-primary">Go somewhere</Link>
               </div>
             </div>
@@ -55,6 +96,25 @@ export default function Istore() {
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
+
+                <div className='thiscontainer w-100'>
+
+                  <select className='m-2 h-100 bg-primary rounded'>
+                    {Array.from(Array(6), (x, i) => {
+                      return (
+                        <option key={i + 1} value={i + 1}> {i + 1} </option>
+                      )
+                    })}
+                  </select>
+
+
+                  <select className='m-2 h-100 bg-primary rounded'>
+                    <option value="ReadyMade">ReadyMade</option>
+                    <option value="Cloth">Cloth</option>
+                  </select>
+                </div>
+
+
                 <Link to="#" className="btn btn-primary">Go somewhere</Link>
               </div>
             </div>
@@ -68,6 +128,24 @@ export default function Istore() {
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
+
+                <div className='thiscontainer w-100'>
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                        {Array.from(Array(6), (x,i)=>{
+                            return(
+                              <option key={i+1} value={i+1}> {i+1} </option>
+                            )
+                        })}
+                    </select>
+
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                      <option value="ReadyMade">ReadyMade</option>
+                      <option value="Cloth">Cloth</option>
+                    </select>
+                 </div>
+
                 <Link to="#" className="btn btn-primary">Go somewhere</Link>
               </div>
             </div>
@@ -81,6 +159,24 @@ export default function Istore() {
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
+
+                <div className='thiscontainer w-100'>
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                        {Array.from(Array(6), (x,i)=>{
+                            return(
+                              <option key={i+1} value={i+1}> {i+1} </option>
+                            )
+                        })}
+                    </select>
+
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                      <option value="ReadyMade">ReadyMade</option>
+                      <option value="Cloth">Cloth</option>
+                    </select>
+                 </div>
+
                 <Link to="#" className="btn btn-primary">Go somewhere</Link>
               </div>
             </div>
@@ -94,6 +190,24 @@ export default function Istore() {
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
+
+                <div className='thiscontainer w-100'>
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                        {Array.from(Array(6), (x,i)=>{
+                            return(
+                              <option key={i+1} value={i+1}> {i+1} </option>
+                            )
+                        })}
+                    </select>
+
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                      <option value="ReadyMade">ReadyMade</option>
+                      <option value="Cloth">Cloth</option>
+                    </select>
+                 </div>
+
                 <Link to="#" className="btn btn-primary">Go somewhere</Link>
               </div>
             </div>
@@ -107,6 +221,24 @@ export default function Istore() {
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
+
+                <div className='thiscontainer w-100'>
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                        {Array.from(Array(6), (x,i)=>{
+                            return(
+                              <option key={i+1} value={i+1}> {i+1} </option>
+                            )
+                        })}
+                    </select>
+
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                      <option value="ReadyMade">ReadyMade</option>
+                      <option value="Cloth">Cloth</option>
+                    </select>
+                 </div>
+
                 <Link to="#" className="btn btn-primary">Go somewhere</Link>
               </div>
             </div>
@@ -120,6 +252,24 @@ export default function Istore() {
                 <p className="card-text">
                   Some quick example text to build on the card title and make up the bulk of the card's content.
                 </p>
+
+                <div className='thiscontainer w-100'>
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                        {Array.from(Array(6), (x,i)=>{
+                            return(
+                              <option key={i+1} value={i+1}> {i+1} </option>
+                            )
+                        })}
+                    </select>
+
+
+                    <select className='m-2 h-100 bg-primary rounded'>
+                      <option value="ReadyMade">ReadyMade</option>
+                      <option value="Cloth">Cloth</option>
+                    </select>
+                 </div>
+
                 <Link to="#" className="btn btn-primary">Go somewhere</Link>
               </div>
             </div>
